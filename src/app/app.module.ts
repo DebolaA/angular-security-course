@@ -49,7 +49,7 @@ export function createAdminOnlyGuard(authService:AuthService, router:Router) {
             cookieName: 'XSRF-TOKEN',
             headerName: 'x-xsrf-token'
         }),
-        RouterModule.forRoot(routesConfig),
+        RouterModule.forRoot(routesConfig, { relativeLinkResolution: 'legacy' }),
         ReactiveFormsModule
     ],
     providers: [

@@ -103,7 +103,6 @@
       }
     }
   },
-  "defaultProject": "angular-security-course",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "",

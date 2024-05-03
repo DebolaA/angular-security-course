@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {UntypedFormBuilder, UntypedFormGroup, Validators} from "@angular/forms";
 import {AuthService} from "../services/auth.service";
 import {Router} from "@angular/router";
 
@@ -10,10 +10,10 @@ import {Router} from "@angular/router";
 })
 export class AdminComponent {
 
-    form:FormGroup;
+    form:UntypedFormGroup;
 
     constructor(
-        private fb:FormBuilder,
+        private fb:UntypedFormBuilder,
         private authService: AuthService,
         private router: Router) {
 

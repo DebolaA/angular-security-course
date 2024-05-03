@@ -30,7 +30,6 @@
     "@angular/compiler": "7.0.0",
     "@angular/core": "^9.1.13",
     "@angular/forms": "^17.3.7",
-    "@angular/http": "7.0.0",
     "@angular/platform-browser": "^17.3.7",
     "@angular/platform-browser-dynamic": "^17.3.7",
     "@angular/router": "^17.3.7",
@@ -46,7 +45,6 @@
     "moment": "^2.18.1",
     "nodemon": "^3.1.0",
     "password-validator": "^4.0.0",
-    "rxjs": "6.3.3",
     "update": "^0.4.2",
     "zone.js": "^0.8.14"
   },

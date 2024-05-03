@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-security-course:build"
+            "buildTarget": "angular-security-course:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-security-course:build:production"
+              "buildTarget": "angular-security-course:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-security-course:build"
+            "buildTarget": "angular-security-course:build"
           }
         },
         "test": {
